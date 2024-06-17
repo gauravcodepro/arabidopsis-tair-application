@@ -3,6 +3,16 @@
 - a arabidopsis multipage desktop application electron, slint, javascript.
 - all functionalities of TAIR with in a single desktop application.
 - interacts with TAIR API.
+- The application on a desktop will open like this
+
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/app-preview1.png", height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/app-preview2.png", height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/app-preview3.png", height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/app-preview4.png", height = 400>
+
+- You have a custom menu for viewing everything with the TAIR and a sub menu for analyzing your own data with TAIR direct API.
+- 2024-6-17: Entry point build
+- 2024-7-: Release date
 
 ```
 npm install electron --save --legacy-peer-deps
