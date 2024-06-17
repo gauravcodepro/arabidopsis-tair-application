@@ -6,15 +6,10 @@
  */
 
 const electron = require('electron');
-
 const url = require('url');
-
 const path = require('path')
-
 const {app, BrowserWindow, Menu} = electron;
-
 let main;
-/*
 const menuTemplate = [
     {
         label: "Arabidopsis information"
@@ -53,12 +48,12 @@ const menuTemplate = [
         ]
     }
 ]
-*/
+
 app.on('ready', () => {
 
-    // const menu = Menu.buildFromTemplate(mainMenu);
+    const menu = Menu.buildFromTemplate(menuTemplate);
 
-   // Menu.setApplicationMenu(menu);
+   Menu.setApplicationMenu(menu);
 
     main = new BrowserWindow({});
 
