@@ -27,8 +27,25 @@
     "name": "Gaurav",
     "email": "gaurav.sablok@uni-potsdam.de"
   },
+  "config": {
+    "forge": {
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "gauravcodepro",
+              "name": "arabdiopsis-tair-application"
+            }
+          }
+        }
+      ]
+    }
+  },
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
   }
 }
+
+
