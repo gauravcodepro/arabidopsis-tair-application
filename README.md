@@ -5,10 +5,9 @@
 - interacts with TAIR API.
 - The application on a desktop will open like this
 
-<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/arabidopsis-tair-app-views/app-preview1.png" height = 400>
-<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/arabidopsis-tair-app-views/app-preview2.png" height = 400>
-<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/arabidopsis-tair-app-views/app-preview3.png" height = 400>
-<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/arabidopsis-tair-app-views/app-preview4.png" height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/appviews/appview1.png" height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/appviews/appview2.png" height = 400>
+<img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/appviews/appview3.png" height = 400>
 
 - You have a custom menu for viewing everything with the TAIR and a sub menu for analyzing your own data with TAIR direct API.
 - 2024-6-17: Entry point build
