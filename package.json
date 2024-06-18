@@ -19,6 +19,7 @@
     "@electron-forge/maker-zip": "^7.4.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/publisher-github": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "electron": "31.0.1"
   },
@@ -27,25 +28,8 @@
     "name": "Gaurav",
     "email": "gaurav.sablok@uni-potsdam.de"
   },
-  "config": {
-    "forge": {
-      "publishers": [
-        {
-          "name": "@electron-forge/publisher-github",
-          "config": {
-            "repository": {
-              "owner": "gauravcodepro",
-              "name": "arabdiopsis-tair-application"
-            }
-          }
-        }
-      ]
-    }
-  },
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
   }
 }
-
-
