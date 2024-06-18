@@ -1,4 +1,4 @@
-# arabidopsis-multi-app
+# arabidopsis TAIR desktop application
 
 - a arabidopsis multipage desktop application electron, slint, javascript.
 - all functionalities of TAIR with in a single desktop application.
