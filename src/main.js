@@ -12,7 +12,7 @@ const {app, BrowserWindow, Menu} = electron;
 let main;
 const menuTemplate = [
     {
-        label: "Arabidopsis information"
+        label: "Arabidopsis TAIR"
     },
     {
         label: "Genotypes"
@@ -24,29 +24,29 @@ const menuTemplate = [
         label:"Enrichment"
     },
     {
-        label: "Genomtrack visualization"
-    },
-    {
-        label:"Exit Arabidopsis"
+        label: "Genome visualization"
     },
     {
         label: "Analyze your data",
         
         submenu:[
             {
-                label: "upload your gene ontology"
+                label: "gene ontology"
             },
             {
-                label: "upload your Arabidopsis AGI"
+                label: "Arabidopsis AGI"
             },
             {
-                label: "convert your AGI to NCBI"
+                label: "AGI to NCBI"
             },
             {
-                label: "analyze your AGI"
+                label: "AGI-Protein"
             }   
         ]
-    }
+    },
+    {
+        label:"Exit Arabidopsis"
+    },
 ]
 
 app.on('ready', () => {
@@ -55,7 +55,9 @@ app.on('ready', () => {
 
    Menu.setApplicationMenu(menu);
 
-    main = new BrowserWindow({});
+    main = new BrowserWindow({
+        icon: 'iconapplication/tairapplication.png'
+    });
 
     main.loadURL(url.format({
         pathname: path.join(__dirname, "main.html"),
