@@ -41,7 +41,7 @@ const menuTemplate = [
             },
             {
                 label: "AGI-Protein"
-            }   
+            }
         ]
     },
     {
@@ -56,7 +56,13 @@ app.on('ready', () => {
    Menu.setApplicationMenu(menu);
 
     main = new BrowserWindow({
-        icon: 'iconapplication/tairapplication.png'
+        icon: 'iconapplication/tairapplication.png',
+        titleBarStyle: 'customButtonsOnHover',
+        titleBarOverlay: {
+            color: '#000000',
+            symbolColor: '#74b1be',
+            height: 100
+        },
     });
 
     main.loadURL(url.format({
@@ -65,4 +71,8 @@ app.on('ready', () => {
 
     }));
 
+});
+
+app.on('window-all-closed', function () {
+  if (process.platform !== 'darwin') app.quit()
 });
