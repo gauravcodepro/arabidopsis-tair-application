@@ -7,12 +7,10 @@
 - 2024-6-17: Entry point build
 - 2024-6-18: Mainframe added and pop-ups window added.
 - 2024-7-: Release date
-
+- download the installer from the release tags and you can install the application.
 ```
- - download the deb or the rpm packages or the windows installer or the MAC installer and run as
- sudo dpkg -i *.deb
+   sudo dpkg -i *.deb
 ```
-- You can access the application from your application menu.
 - The application on a desktop will open like this
 <img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/appviews/appview1.png" height = 400>
 <img src = "https://github.com/gauravcodepro/arabidopsis-tair-application/blob/main/appviews/appview2.png" height = 400>
