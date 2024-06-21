@@ -1,5 +1,7 @@
 # arabidopsis TAIR desktop application
 
+ [![Build](https://github.com/gauravcodepro/arabidopsis-tair-application/actions/workflows/build.yml/badge.svg)](https://github.com/gauravcodepro/arabidopsis-tair-application/actions/workflows/build.yml)
+
 - a arabidopsis multipage desktop application electron, slint, javascript.
 - all functionalities of TAIR with in a single desktop application.
 - interacts with TAIR API.
