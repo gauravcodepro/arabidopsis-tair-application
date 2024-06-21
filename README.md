@@ -6,6 +6,7 @@
 - You have a custom menu for viewing everything with the TAIR and a sub menu for analyzing your own data with TAIR direct API.
 - 2024-6-17: Entry point build
 - 2024-6-18: Mainframe added and pop-ups window added.
+- 2024-6-18: inbrowse and pop-up windows added. 
 - 2024-7-: Release date
 - download the installer from the release tags and you can install the application.
 ```
