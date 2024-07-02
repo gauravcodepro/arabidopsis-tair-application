@@ -6,7 +6,8 @@
 - 2024-6-17: Entry point build
 - 2024-6-18: Mainframe added and pop-ups window added.
 - 2024-6-18: inbrowse and pop-up windows added.
-- 2024-6-27: nodejs and new browser window added. 
+- 2024-6-27: nodejs and new browser window added.
+- 2024-7-2: adding the support for the sqlite3 database in-built.
 - 2024-7-: Release date
 
 
