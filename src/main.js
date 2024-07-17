@@ -1,7 +1,6 @@
 /*
   electron app init for the arabidopsis package
   Author Gaurav Sablok
-  Universitat Potsdam
   Date: 2024-6-16
  */
 
